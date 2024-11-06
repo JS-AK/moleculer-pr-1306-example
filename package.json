@@ -1,0 +1,28 @@
+{
+  "name": "moleculer-pr-1306-example",
+  "version": "1.0.0",
+  "description": "moleculer",
+  "type": "module",
+  "main": "moleculer.config.js",
+  "scripts": {
+    "api-gateway": "node node_modules/moleculer/bin/moleculer-runner.mjs ./services/api-gateway.service.js",
+    "test-1": "node node_modules/moleculer/bin/moleculer-runner.mjs ./services/test-1.service.js",
+    "test-2": "node node_modules/moleculer/bin/moleculer-runner.mjs ./services/test-2.service.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JS-AK/moleculer-pr-1306-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JS-AK/moleculer-pr-1306-example/issues"
+  },
+  "homepage": "https://github.com/JS-AK/moleculer-pr-1306-example#readme",
+  "dependencies": {
+    "moleculer": "0.14.34",
+    "moleculer-web": "0.10.7",
+    "nats": "2.28.2"
+  }
+}
